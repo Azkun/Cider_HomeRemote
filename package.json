@@ -1,0 +1,23 @@
+{
+  "name": "cider_homeremote",
+  "version": "1.0.0",
+  "description": "A local remote gui for the music app \"Cider\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azkun/Cider_HomeRemote.git"
+  },
+  "author": "qwkun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azkun/Cider_HomeRemote/issues"
+  },
+  "homepage": "https://github.com/Azkun/Cider_HomeRemote#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "http-proxy-middleware": "^3.0.0"
+  }
+}

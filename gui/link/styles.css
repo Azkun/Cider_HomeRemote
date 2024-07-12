@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(19, 19, 19);
+    color: #FFF;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.playb {
+    background-color: #7644c7;
+    border-radius: 1vw;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 1vw;
+    padding: 1vw;
+    text-decoration: none;
+    transition: .15s;
+}
+
+.playb:hover {
+    background-color: #422766;
+}
+
+.playb:active {
+    position: relative;
+    top: 1px;
+}
+
+.volume-controls {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#volumeSlider {
+    width: 200px;
+    margin: 0 10px;
+}
+
+#volumePercentage {
+    font-size: 1.2vw;
+}
